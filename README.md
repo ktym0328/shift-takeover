@@ -1,2 +1,2 @@
 # shift-takeover
-operation take over between shift members
+シフトの申し送りツールを作るためのベースライン
