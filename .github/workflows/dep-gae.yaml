@@ -2,7 +2,7 @@
 
 name: Deloy Google App Engine
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -28,4 +28,3 @@ jobs:
           service-account:${{ secrets.SHITTAKEOVER_JSON }}
           project-id:${{ secrets.PROJECTNAME }}
           config-files:'./app.yml'
-
