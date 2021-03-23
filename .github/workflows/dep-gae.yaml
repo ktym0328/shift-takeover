@@ -25,8 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: vijayp23/deploy-gae-action@1.0.1
         with:
-          service-account:${{ secrets.shifttakeover }}
-          project-id:Python-test
+          service-account:${{ secrets.SHITTAKEOVER_JSON }}
+          project-id:${{ secrets.PROJECTNAME }}
           config-files:'./app.yml'
 
       # Runs a set of commands using the runners shell
