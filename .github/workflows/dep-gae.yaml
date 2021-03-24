@@ -27,4 +27,4 @@ jobs:
           with:
             service-account: ${{ secrets.SHITTAKEOVER_JSON }}
             project-id: 'python-test-273813'
-            config-files: 'shit-takeover/app.yaml'
+            config-files: 'ktym0328/shift-takeover/app.yaml'
